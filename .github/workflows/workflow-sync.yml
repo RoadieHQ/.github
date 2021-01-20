@@ -1,0 +1,27 @@
+name: Workflow Sync
+
+on:
+  push:
+    branches:
+      - main
+env:
+  DRY_RUN: false
+  REPOSITORIES: |
+    roadiehq/backstage-plugin-jira
+  WORKFLOW_FILES: |
+    workflows-to-sync/publish.yml=.github/workflows/publish.yml
+jobs:
+  Github_Workflow_Sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetching Local Repository
+        uses: actions/checkout@master
+      - name: Running Workflow Sync
+        uses: varunsridharan/action-github-workflow-sync@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRY_RUN: ${{ env.DRY_RUN }}
+          REPOSITORIES: ${{ env.REPOSITORIES }}
+          WORKFLOW_FILES: ${{ env.WORKFLOW_FILES }}
+          PULL_REQUEST: true
+          AUTO_CREATE_NEW_BRANCH: true
