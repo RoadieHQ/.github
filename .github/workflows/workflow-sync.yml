@@ -19,7 +19,7 @@ jobs:
       - name: Running Workflow Sync
         uses: varunsridharan/action-github-workflow-sync@main
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ROADIE_BOT_PAT }}
           DRY_RUN: ${{ env.DRY_RUN }}
           REPOSITORIES: ${{ env.REPOSITORIES }}
           WORKFLOW_FILES: ${{ env.WORKFLOW_FILES }}
