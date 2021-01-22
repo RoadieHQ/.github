@@ -7,7 +7,10 @@ on:
 env:
   DRY_RUN: false
   REPOSITORIES: |
-    roadiehq/backstage-plugin-jira
+    roadieHQ/backstage-plugin-argo-cd
+    roadieHQ/backstage-plugin-security-insights
+    roadieHQ/backstage-plugin-jira
+    roadieHQ/backstage-plugin-buildkite
   WORKFLOW_FILES: |
     workflows-to-sync/publish.yml=.github/workflows/publish.yml
 jobs:
