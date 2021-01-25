@@ -7,18 +7,9 @@ on:
 env:
   DRY_RUN: false
   REPOSITORIES: |
-    roadieHQ/backstage-plugin-aws-auth
-    roadieHQ/backstage-plugin-aws-lambda
-    roadieHQ/backstage-plugin-firebase-functions
-    roadieHQ/backstage-plugin-travis-ci
-    roadieHQ/backstage-plugin-github-insights
-    roadieHQ/backstage-plugin-github-pull-requests
     roadieHQ/backstage-plugin-argo-cd
-    roadieHQ/backstage-plugin-security-insights
-    roadieHQ/backstage-plugin-jira
-    roadieHQ/backstage-plugin-buildkite
   WORKFLOW_FILES: |
-    workflows-to-sync/publish.yml=.github/workflows/publish.yml
+    workflows-to-sync/main.yml=.github/workflows/main.yml
 jobs:
   Github_Workflow_Sync:
     runs-on: ubuntu-latest
