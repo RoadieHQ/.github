@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/RoadieHQ/roadie-backstage-plugins/main/plugins/roadie-backstage-entity-validator/src/schemas/entity-validation.json",
+    "type": "object",
+    "properties": {
+      "metadata": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^([a-z0-9]+\\.)?[a-z0-9][a-z0-9-]*[a-z0-9]$",
+            "description": "Entity names must be lowercase kebab-case, optionally prefixed with a team name and dot (e.g. payments.checkout-service)"
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,2 @@
+validator:
+  validationSchemaUrl: "https://raw.githubusercontent.com/roadiehq/.github/main/entity-validation-schema.json"
