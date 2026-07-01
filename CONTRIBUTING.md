@@ -1,14 +1,16 @@
-# Contributing to Roadie OSS
+# Contributing
 
-We support the Backstage sponsors, maintainers and community in their vision for Backstage to become the trusted standard toolbox (read: UX layer) for the open source infrastructure landscape. We realize this is an ambitious goal. We can’t do it alone.
+We believe that AI agents have already fundamentally changed the way software is built and that this is just the beginning. Given this, we believe we should do everything we can to make sure that the benefits provided by such powerful technology are accessible to everyone. 
 
-Therefore we want to create strong community of contributors -- all working together to create the kind of delightful experience that Backstage deserves.
+We realize this is an ambitious goal. We can’t do it alone.
+
+Therefore we want to create strong community of contributors -- all working together to create the kind of change.
 
 Contributions are welcome, and they are greatly appreciated! Every little bit helps, and credit will always be given. ❤️
 
 Unless otherwise specified, our open-source code is released under the Apache 2.0 License, and original creations contributed to our repos are accepted under the same license.
 
-We aim to stick as closely as possible to the [contribution guidelines which apply to the Backstage project](https://github.com/backstage/backstage/blob/master/CONTRIBUTING.md). If something is not covered in this document, please assume that the appropriate Backstage guideline will apply. 
+We aim to stick as closely as possible to the [contribution guidelines](https://github.com/RoadieHQ/openroadie/blob/master/CONTRIBUTING.md). 
 
 ## Types of Contributions
 
@@ -36,12 +38,6 @@ If you are proposing a feature:
 So...feel ready to jump in? Let's do this. 💯 👏
 
 Start by reading README to get set up for local development. If you need help, just jump into [our Discord chatroom](https://discord.gg/W3qEMhmx4f).
-
-## Coding Guidelines
-
-Where possoble use Backstage tooling to build, serve, lint, test and package our OSS code.
-
-As such, the [same coding guidelines mostly apply](https://github.com/backstage/backstage/blob/master/CONTRIBUTING.md#coding-guidelines).
 
 ## Code of Conduct
 
