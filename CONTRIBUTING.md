@@ -10,7 +10,7 @@ Contributions are welcome, and they are greatly appreciated! Every little bit he
 
 Unless otherwise specified, our open-source code is released under the Apache 2.0 License, and original creations contributed to our repos are accepted under the same license.
 
-We aim to stick as closely as possible to the [contribution guidelines](https://github.com/RoadieHQ/openroadie/blob/master/CONTRIBUTING.md). 
+We aim to stick as closely as possible to the [contribution guidelines](https://github.com/RoadieHQ/openroadie/blob/main/CONTRIBUTING.md). 
 
 ## Types of Contributions
 
